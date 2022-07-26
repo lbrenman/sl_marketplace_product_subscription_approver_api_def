@@ -25,23 +25,17 @@ paths:
           description: OK
           content:
             application/json:
-              schema:
-                type: object
-                properties: {}
+              schema: {}
         '400':
           description: Bad Request
           content:
             application/json:
-              schema:
-                type: object
-                properties: {}
+              schema: {}
         '500':
           description: Internal Server Error
           content:
             application/json:
-              schema:
-                type: object
-                properties: {}
+              schema: {}
       tags:
         - approver
       description: approver
