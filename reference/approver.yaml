@@ -25,17 +25,20 @@ paths:
           description: OK
           content:
             application/json:
-              schema: {}
+              schema:
+                nullable: true
         '400':
           description: Bad Request
           content:
             application/json:
-              schema: {}
+              schema:
+                nullable: true
         '500':
           description: Internal Server Error
           content:
             application/json:
-              schema: {}
+              schema:
+                nullable: true
       tags:
         - approver
       description: approver
