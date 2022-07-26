@@ -26,18 +26,21 @@ paths:
           content:
             application/json:
               schema:
+                type: string
                 nullable: true
         '400':
           description: Bad Request
           content:
             application/json:
               schema:
+                type: string
                 nullable: true
         '500':
           description: Internal Server Error
           content:
             application/json:
               schema:
+                type: string
                 nullable: true
       tags:
         - approver
