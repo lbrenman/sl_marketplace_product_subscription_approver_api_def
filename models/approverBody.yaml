@@ -1,0 +1,16 @@
+type: object
+properties:
+  comment:
+    type: string
+  approvalStatus:
+    type: string
+  selfLink:
+    type: string
+  subscriptionName:
+    type: string
+  productName:
+    type: string
+  requestorName:
+    type: string
+  requestorEmail:
+    type: string
