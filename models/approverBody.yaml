@@ -6,11 +6,13 @@ properties:
     type: string
   selfLink:
     type: string
-  subscriptionName:
+  requestName:
     type: string
-  productName:
+  requestedItemName:
     type: string
   requestorName:
     type: string
   requestorEmail:
+    type: string
+  kind:
     type: string
